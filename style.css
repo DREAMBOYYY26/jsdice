@@ -1,0 +1,38 @@
+* {
+  font-family: Courier;
+  font-weight: 999;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.btn {
+  font-weight: 600;
+  font-size: 40;
+  width: auto;
+  height: auto;
+  margin-left: 60px;
+  margin-right: 10px;
+  background-color: #03FFBA;
+  color: #0D0D0D;
+  border: solid 1px #00F4B1;
+  border-radius: 100px;
+}
+
+.btn:hover {
+  background-color: #00DA9E;
+}
+
+.btn {
+  font-weight: 600;
+  font-size: 40;
+  width: auto;
+  height: auto;
+  margin-left: 60px;
+}
