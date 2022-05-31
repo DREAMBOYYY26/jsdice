@@ -1,12 +1,7 @@
-// To generate play1 random dice
 
-    let rand1 = Math.floor(Math.random() * 5 + 1);
+    let r1 = Math.floor(Math.random() * 5 + 1);
 
-    // To generate play2 random dice
-
-    let rand2 = Math.floor(Math.random() * 5 + 1);
-
-    // Condition / result                
+    let r2 = Math.floor(Math.random() * 5 + 1);           
 
     if (rand1 > rand2) {
 
@@ -22,10 +17,6 @@
 
     }
 
-    //============================
+    document.write(`<img src="/dice${r1}.png">`);
 
-    // display images
-
-    document.write(`<img src="/dice${rand1}.png">`);
-
-    document.write(`<img src="/dice${rand2}.png">`);
+    document.write(`<img src="/dice${r2}.png">`);
